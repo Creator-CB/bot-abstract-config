@@ -1,0 +1,14 @@
+descarca: https://nodejs.org/en
+npm install --save-dev ts-node typescript
+npm i
+npx playwright install
+
+ npm start 
+
+discordToken.txt — токены дискорда.
+emails.txt — почта в формате login:pass. Каждая почта с новой строки.
+evmWallets.txt — приватные ключи кошельков, с которых будет происходить бридж в сеть Abstract. Каждый с новой строки.
+privyWallets.txt — приватные ключи Privy кошельков, которые нужно достать 3 модулем.
+extractedPrivyKeys.txt — приватные ключи кошельков Privy. Самому файл трогать не нужно. Он будет заполняться при запуске модуля экспорта Privy кошельков.
+proxies.txt — прокси в формате login:pass@ip:port
+twitterTokens.txt — токены твиттера.
